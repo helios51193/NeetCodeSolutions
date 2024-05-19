@@ -1,5 +1,6 @@
+#Solution 1 - using one pass
 class Solution:
-    def largestRectangleArea(self, heights: List[int]) -> int:
+    def largestRectangleArea(self, heights: list[int]) -> int:
 
         max_area = 0 # for saving max height
         stack = [] # monotinic stac
@@ -26,4 +27,41 @@ class Solution:
             max_area = max(max_area, height * max_width)
         
         return max_area
+
+#Solution 2 - using left and right
+class Solution:
+    def largestRectangleArea(self, heights: list[int]) -> int:
+        n = len(heights)
+        stack= []
+        lt = [None] * n
+        rt = [None] * n
+        for i in range(n):
+            while len(stack) != 0 and heights[stack[-1]] >= heights[i]:
+                stack.pop()
+            if len(stack) == 0:
+                lt[i] = -1
+            else:
+                lt[i] = stack[-1]
+            stack.append(i)
+        
+        while len(stack) != 0:
+            stack.pop()
+        
+        for i in range(n-1,-1,-1):
+            
+            while len(stack) != 0 and heights[stack[-1]] >= heights[i]:
+                stack.pop()
+            if len(stack) == 0:
+                rt[i] = n
+            else:
+                rt[i] = stack[-1]
+            stack.append(i)
+        
+        max_area = 0
+        for i in range(n):
+            max_area = max(max_area, heights[i] * (rt[i] - lt[i] - 1))
+        
+        return max_area
+
+        
         
