@@ -1,3 +1,7 @@
+# Solution 1
+from typing import List
+
+
 class Solution:
     def majorityElement(self, nums: list[int]) -> int:
         
@@ -13,3 +17,17 @@ class Solution:
         for k,v in m_dict.items():
             if v > len(nums)/2:
                 return k
+
+# Solution 2
+# with better optimizations
+class Solution:
+    def majorityElement(self, nums: List[int]) -> int:
+        
+        # create a hashmap to count the occurences of nums 
+        m_dict = {}
+        req = len(nums)/2
+        for num in nums:
+            m_dict[num] = m_dict.get(num,0) +1
+
+            if m_dict[num] > req:
+                return num
