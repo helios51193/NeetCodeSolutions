@@ -31,3 +31,10 @@ class Solution:
 
             if m_dict[num] > req:
                 return num
+
+## Note :- Boyer Moors Voting Algorithm
+"""
+    Last Looked
+    1-11-25
+
+"""

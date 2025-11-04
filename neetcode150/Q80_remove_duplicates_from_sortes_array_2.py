@@ -39,3 +39,9 @@ class Solution:
             nums[i] = x
         
         return len(temp)
+
+"""
+    Last Looked
+    1-11-25
+
+"""

@@ -12,3 +12,9 @@ class Solution:
                 steps = max_reach
         
         return jumps
+    
+"""
+    Last Looked
+    1-11-25
+
+"""

@@ -31,3 +31,9 @@ class Solution:
                 maxProf = currentMax - i
         
         return maxProf
+
+"""
+    Last Looked
+    1-11-25
+
+"""

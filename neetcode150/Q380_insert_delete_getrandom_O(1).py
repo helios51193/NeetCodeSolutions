@@ -19,6 +19,9 @@ class RandomizedSet:
         if val not in self.indices:
             return False
         
+        # Swap the places of val to be removed and the last element of
+        # the array and then  pop the last element (now the val)
+        
         i = self.indices[val]
         self.indices[self.arr[-1]] = i
         self.arr[i] = self.arr[-1]
@@ -36,3 +39,9 @@ class RandomizedSet:
 # param_1 = obj.insert(val)
 # param_2 = obj.remove(val)
 # param_3 = obj.getRandom()
+
+"""
+    Last Looked
+    1-11-25
+
+"""

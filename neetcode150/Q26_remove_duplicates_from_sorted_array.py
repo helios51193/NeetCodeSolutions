@@ -22,3 +22,9 @@ class Solution:
             nums[i] = x[i]
         
         return len(x)
+
+"""
+    Last Looked
+    1-11-25
+
+"""

@@ -4,3 +4,9 @@ class Solution:
         s = s.rstrip()
         words = s.split(" ")
         return len(words[-1])
+
+"""
+    Last Looked
+    1-11-25
+
+"""

@@ -19,3 +19,9 @@ class Solution:
             postfix_product *= nums[i]
         
         return output
+
+"""
+    Last Looked
+    1-11-25
+
+"""

@@ -13,3 +13,9 @@ class Solution:
                 profit += prices[i] - prices[i-1]
         
         return profit
+
+"""
+    Last Looked
+    1-11-25
+
+"""

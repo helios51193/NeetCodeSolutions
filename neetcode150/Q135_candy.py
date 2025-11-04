@@ -56,3 +56,9 @@ class Solution:
         total_candies = sum(candies)
 
         return total_candies
+
+"""
+    Last Looked
+    1-11-25
+
+"""

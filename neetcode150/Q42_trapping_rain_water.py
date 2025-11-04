@@ -19,4 +19,11 @@ class Solution:
                 max_right = max(max_right, height[right])
                 trapped_water += max_right - height[right]
 
-        return trapped_water       
+        return trapped_water      
+    
+
+"""
+    Last Looked
+    1-11-25
+
+"""

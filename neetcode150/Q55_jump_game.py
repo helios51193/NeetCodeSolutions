@@ -11,3 +11,9 @@ class Solution:
             farthest = max(farthest, i + nums[i])   # Take the max of current farthest and the traverse distance from current to the steps
 
         return True
+
+"""
+    Last Looked
+    1-11-25
+
+"""
