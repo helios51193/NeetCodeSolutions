@@ -30,9 +30,15 @@ class Solution:
                     if neighbors == 2 or neighbors == 3: # rule 2
                         board[i][j] = 1
                 
-                if board[i][j] == 0:
+                if board[i][j] == 0: # rule 4
                     if neighbors == 3:
                         board[i][j] = 1
+
+"""
+    Last Looked
+    5-11-25
+
+"""
         
 
         

@@ -21,4 +21,10 @@ class Solution:
                 squares[(row_idx//3, col_idx//3)].add(ele)
 
         return True 
-        
+
+
+"""
+    Last Looked
+    5-11-25
+
+"""
