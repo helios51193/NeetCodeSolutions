@@ -22,3 +22,9 @@ class Solution:
 
         merged_intervals.append([current_start, current_end])
         return merged_intervals
+
+"""
+    Last Looked
+    10-11-25
+
+"""

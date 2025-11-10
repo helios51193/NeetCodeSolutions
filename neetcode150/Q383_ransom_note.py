@@ -20,3 +20,9 @@ class Solution:
             magazine_map[char] -=1
         
         return True
+
+"""
+    Last Looked
+    10-11-25
+
+"""

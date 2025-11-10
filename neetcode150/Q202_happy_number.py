@@ -10,3 +10,9 @@ class Solution:
             n = sum(int(digit) ** 2 for digit in str(n))
 
         return n == 1
+
+"""
+    Last Looked
+    10-11-25
+
+"""

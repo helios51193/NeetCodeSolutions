@@ -25,4 +25,8 @@ class Solution:
             ranges.append(f"{start}->{nums[-1]}")
 
         return ranges
-        
+"""
+    Last Looked
+    10-11-25
+
+"""
