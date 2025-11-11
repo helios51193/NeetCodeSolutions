@@ -12,3 +12,9 @@ class Solution:
                 stack.append(dir)
         
         return "/" + "/".join(stack)
+
+"""
+    Last Looked
+    11-11-25
+
+"""

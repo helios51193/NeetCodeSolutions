@@ -33,3 +33,8 @@ class Solution:
         prev.next = current
 
         return dummy.next
+"""
+    Last Looked
+    11-11-25
+
+"""

@@ -32,3 +32,9 @@ class Solution:
             curr = curr.next
         
         return old_new_map[head]
+
+"""
+    Last Looked
+    11-11-25
+
+"""

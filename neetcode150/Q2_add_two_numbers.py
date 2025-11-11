@@ -1,4 +1,7 @@
 # Definition for singly-linked list.
+from typing import Optional
+
+
 class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
@@ -40,7 +43,13 @@ class Solution:
             curr.next = temp
 
 
-        return res_list
+        return 
+
+"""
+    Last Looked
+    11-11-25
+
+"""
             
 
         
