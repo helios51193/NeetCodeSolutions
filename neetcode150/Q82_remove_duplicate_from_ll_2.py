@@ -25,3 +25,9 @@ class Solution:
             curr = curr.next
 
         return dummy.next
+
+"""
+    Last Looked
+    13-11-25
+
+"""

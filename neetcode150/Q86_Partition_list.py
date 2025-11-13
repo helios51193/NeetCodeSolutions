@@ -23,3 +23,9 @@ class Solution:
         
         curr_left.next = right_start.next
         return left_start.next
+
+"""
+    Last Looked
+    13-11-25
+
+"""

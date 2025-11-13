@@ -36,3 +36,9 @@ class Solution:
             count -=k
         
         return  dummy.next
+    
+"""
+    Last Looked
+    13-11-25
+
+"""

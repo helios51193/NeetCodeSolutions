@@ -31,3 +31,9 @@ class Solution:
             else:
                 follower.next = follower.next.next
                 return head
+
+"""
+    Last Looked
+    13-11-25
+
+"""

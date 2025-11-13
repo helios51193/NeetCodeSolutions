@@ -31,3 +31,9 @@ class Solution:
         newhead = curr.next
         curr.next = None
         return newhead
+
+"""
+    Last Looked
+    13-11-25
+
+"""
