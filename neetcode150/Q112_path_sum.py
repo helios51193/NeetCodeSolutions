@@ -16,3 +16,9 @@ class Solution:
         
         targetSum -= root.val
         return self.hasPathSum(root.left, targetSum) or self.hasPathSum(root.right, targetSum)
+
+"""
+    Last Looked
+    15-11-25
+
+"""

@@ -26,3 +26,9 @@ class Solution:
         root.left = None
 
         self.prev = root
+
+"""
+    Last Looked
+    15-11-25
+
+"""

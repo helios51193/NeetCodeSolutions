@@ -34,3 +34,9 @@ class Solution:
                     prev=prev.next 
         
         return root 
+
+"""
+    Last Looked
+    15-11-25
+
+"""
